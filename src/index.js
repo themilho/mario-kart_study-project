@@ -13,8 +13,12 @@ const yoshi = new Character("Yoshi", 2, 4, 3)
 const bowser = new Character("Bowser", 5, 2, 5)
 const donkeyKong = new Character("Donkey Kong", 2, 2, 5)
 
-async function rollDice (){
-    return Math.floor(Math.random() * 6) + 1
+async function rollDice () {
+    return Math.floor(Math.random() *6)+1;
 }
+
+(async function main() {
+    console.log("hello")
+})();
 
 console.log(rollDice())
